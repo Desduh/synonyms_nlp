@@ -34,6 +34,6 @@ pip install -r requirements.txt
 
 To run the synonym replacement algorithm, execute the `app.py` file.
 
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
