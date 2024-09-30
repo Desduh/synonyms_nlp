@@ -20,7 +20,7 @@ def replace_synonyms(sentence):
     new_sentence = []
     
     for token in doc:
-        if token.pos_ in ["NOUN", "VERB", "ADJ", "ADV"]: 
+        if token.pos_ in ["ADJ"]: #"NOUN", "VERB", "ADJ", "ADV"
             synonyms = get_synonyms(token.text.lower())
             if synonyms:
                 synonym = synonyms[0].replace('_', ' ')
