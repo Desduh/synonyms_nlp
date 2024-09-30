@@ -10,30 +10,30 @@
 
 To isolate the project's dependencies, create a virtual environment in your project directory.
 
-\`\`\`bash
+```bash
 python3 -m venv venv
-\`\`\`
+```
 
 Activate the virtual environment:
 
 - On **Windows**:
   
-  \`\`\`bash
+  ```bash
   .\\venv\\Scripts\\activate
-  \`\`\`
+  ```
 
 ### Step 2: Install Requirements
 
 Once the virtual environment is activated, install the necessary dependencies using `pip`.
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Step 3: Run the Application
 
 To run the synonym replacement algorithm, execute the `app.py` file.
 
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
